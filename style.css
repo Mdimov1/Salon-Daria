@@ -1,0 +1,271 @@
+	*, *:before, *:after {
+		box-sizing: inherit;
+		overflow: visible;
+	}
+	body {
+		margin: 0px;
+		font-family: "Lato", sans-serif;
+		background-color: hsl(50, 97%, 79%);
+	}
+	.bar {
+		width: 100%;
+	    float: left;
+		background-color: hsl(329, 0%, 91%);
+		margin: 0;
+		padding: 0px 20px 5px 20px;
+	}
+	.menu img{
+		width:370px; 
+		height:150px;
+	}
+	.menu ul {
+		width: 100%;
+		margin: 0;
+		padding: 0;
+		background-color: white;
+	}
+	.mySlides {
+		display: none;
+	}
+	.slideshow-container {
+		width: 100%;
+		position: top;
+	}
+	
+	.text {
+		color: #f2f2f2;
+		font-size: large;
+		padding: 8px 12px;
+		position: absolute;
+		bottom: 8px;
+		width: 100%;
+		text-align: center;
+	}	
+	.fade img {
+	    width: 100%;
+        height: 900px;
+	}
+	.fade {
+		  height: 100%
+		  width: 100%;
+		  -webkit-animation-name: fade;
+		  -webkit-animation-duration: 1.5s;
+		  animation-name: fade;
+		  animation-duration: 1.5s;
+		}
+
+		@-webkit-keyframes fade {
+		  from {
+		  opacity: .8
+		  } 
+		  to {
+		  opacity: 1
+		  }
+		}
+
+		@keyframes fade {
+		  from {
+		  opacity: .8
+		  } 
+		  to {
+		  opacity: 1
+		  }	
+		}
+	#phone1, #phone2, #mail{
+		font-style: oblique;
+		margin: 10px 50px;
+	}
+	#fb {
+		margin: 10px 10px 10px 600px;
+	}
+	#instagram, #twitter, #google {
+		margin: 10px 10px;
+	}
+
+
+	li {
+		list-style : none;
+		float: left;
+	}
+	.menu li a {
+		font-size: large;
+		display: block;
+		color: black;
+		text-align: center;
+		margin: 45px 25px;
+		padding: 17px 16px;
+		text-decoration: none;
+	}
+	li a:hover {
+			background-color: hsl(54, 100%, 50%);
+		}
+	.pics {
+		padding: 0px 10px;
+		margin: auto;
+		height: 100%;
+		width: 100%;
+		position: relative;	
+		left: 100px;
+	}
+	.pics img {
+		font: left;
+		position top;
+		height: 50%;
+		width: 50%;
+		padding: 10px;
+		margin: auto;
+	}
+	#img1, #img2, #img3{
+		width: 400px;
+		height: 500px;
+	}
+	.text1 h1 {
+		font-family: 'Monoton';
+		font-weight: bold;
+		font-size: 35px;
+		color: black;
+	}
+
+	.text1{
+	    padding: 200px 0px 10px 0px; 
+		text-align: center;
+		width: 100%;
+		font: top;
+		font-size: 20px;
+		font-weight: bold;
+		color: orange;
+		position: top;
+		top: 10px;
+		font-family: Georgia, serif;
+	}
+	.text2 h1 {
+		padding: 520px 0px 0px 30px;
+		text-align: center;
+		position: relative;
+		width: 100%;		
+	}
+	.text2 ul{
+		padding: 20px 70px;
+	}
+	.text2 ul li{
+		font-family: 'Coiny', cursive;
+		font-size: 25px;
+		background: white;
+		font: left;
+		position: top;
+		padding: 10px 5px;
+		margin: 10px 10px;
+		box-decoration-break: clone;
+		border-radius: 20px;
+		border-style: dotted;
+	}
+	.text3 {
+		padding: 100px 0px;
+		margin: auto;
+		position: relative;
+		left: 50px;
+	}
+	.text3 ul li {
+		font: left;
+		position: top;
+		margin: 5px;
+	}
+	#img4, #img5 , #img6 {
+		width: 440px;
+		height: 360px;
+	}
+	#img7, #img8 {
+		width: 370px;
+		height: 410px;
+	}
+	.hairdresser {
+		border-style: dotted;
+		width: 50%;
+		background-color: white;
+		margin: 100px 100px 100px 320px;
+		padding: 50px 10px 30px 0px;
+		overflow: auto;
+	}
+	.hairdresser h1 {
+		font-size: 25px;
+		text-align: center;
+	}
+	.cosmetic {
+		border-style: dotted;
+		width: 50%;
+		background-color: white;
+		margin: 100px 849px 0px 320px;
+		position: left;
+		padding: 10px 10px 30px 0px;
+		overflow: auto;
+	}
+	.cosmetic h1 {
+		font-size: 25px;
+		text-align: center;
+	}
+	.team {
+		width: 100%;
+		margin: auto;
+		position: relative;
+		text-align: center;
+		width: 100%;
+		height: 100%
+		display: block;
+	}
+	
+	.products-head {
+		text-align: center;
+		margin: 80px 0px 40px 0px;
+	}
+	
+	#img9, #img10, #img11, #img12, #img13, #img14, #img15 {
+		width: 200px;
+		height: 150px;
+	}
+	
+	.products-pics ul li {
+		margin: 2px;
+	}
+	.contacts-head {
+		margin: 300px 0px 30px 0px; 
+		text-align: center;
+	}
+	.contacts-info{
+		float: left;
+		width: 50%;
+		margin: 0px 0px 0px 250px;
+		font-size: 17px;
+	}
+	.contacts-info i{
+		margin: 5px 10px 0px 0px;
+		font-size: 20px;
+		font: center;
+	}
+	.cosmetic:after , .cosmetic:before, .cosmetic h1:after, .cosmetic h1:before, .team:after, .team:before,
+	.contacts-head:after, .contacts-head:before, .contacts-info:after, contacts-info:before{
+		content: "";
+		display: table;
+		clear: both;
+	}
+	
+	.name, .email, .date, .clock {
+		margin: 5px;
+	}
+	input {
+		height: 30px;
+		width: 140px;
+		overflow: visible;
+	}
+	.button {
+		margin: 10px 110px;
+		background-color: black;
+		color: white;
+		padding: 5px 7px;
+	}
+	.flooter {
+		margin: 50px 0px 0px 0px;
+		padding: 70px 0px 50px 0px;
+		text-align: center;
+		width: 100%;
+		background-color: hsl(60, 96%, 89%);
+	}
